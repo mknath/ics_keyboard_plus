@@ -32,7 +32,7 @@
         <Key latin:moreKeys="¡" latin:keyLabel="!" />
         <Key latin:moreKeys="“,”,«,»" latin:maxMoreKeysColumn="6" latin:keyLabel="&quot;" />
         <Key latin:moreKeys="‘,’,‚,‛" latin:keyLabel="'" />
-        <Key latin:moreKeys="⇔,↔,⇒,↦" latin:keyLabel=":" />
+        <Key latin:keyLabel=":" />
         <Key latin:moreKeys="@string/more_keys_for_symbols_semicolon" latin:keyLabel="@string/keylabel_for_symbols_semicolon" />
         <Key latin:keyLabel="/" />
         <Key latin:moreKeys="@string/more_keys_for_symbols_question" latin:keyLabel="@string/keylabel_for_symbols_question" />

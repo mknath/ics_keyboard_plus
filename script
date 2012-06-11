@@ -1,3 +1,0 @@
-for i in `find $PWD -type f`; do
-	sed -i "s/android\/inputmethod\//gnufabio\/icskbplus\//g" $i;
-done

@@ -109,8 +109,7 @@
             latin:keyLabel="&gt;"
             latin:moreKeys="≥,»,›" />
         <Key
-            latin:keyLabel="="
-            latin:moreKeys="≠,≈" />
+            latin:keyLabel="=" />
         <switch>
             <case
                 latin:mode="url"
