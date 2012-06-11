@@ -2319,7 +2319,7 @@ public class LatinIME extends InputMethodServiceCompatWrapper implements Keyboar
         final CharSequence[] items = new CharSequence[] {
                 // TODO: Should use new string "Select active input modes".
                 getString(R.string.language_selection_title),
-                getString(R.string.english_ime_settings),
+                getString(R.string.custom_ime_settings),
         };
         final DialogInterface.OnClickListener listener = new DialogInterface.OnClickListener() {
             @Override
@@ -2349,7 +2349,7 @@ public class LatinIME extends InputMethodServiceCompatWrapper implements Keyboar
         final CharSequence title = getString(R.string.english_ime_input_options);
         final CharSequence[] items = new CharSequence[] {
                 getString(R.string.selectInputMethod),
-                getString(R.string.english_ime_settings),
+                getString(R.string.custom_ime_settings),
         };
         final DialogInterface.OnClickListener listener = new DialogInterface.OnClickListener() {
             @Override

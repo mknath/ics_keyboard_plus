@@ -18,10 +18,15 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_version">0.1</string>
+    
+    <string name="custom_ime_name">ICS KeyBoard+</string>
+    <string name="custom_ime_settings">ICS KeyBoard+ settings</string>
+    
     <!-- Title for Latin keyboard  -->
-    <string name="english_ime_name">Android keyboard</string>
+    <string name="english_ime_name">ICS KeyBoard+</string>
     <!-- Title for Latin keyboard settings activity / dialog -->
-    <string name="english_ime_settings">Android keyboard settings</string>
+    <string name="english_ime_settings">ICS KeyBoard+</string>
     <!-- Title for Latin keyboard input options dialog [CHAR LIMIT=25] -->
     <string name="english_ime_input_options">Input options</string>
 

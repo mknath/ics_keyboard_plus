@@ -171,7 +171,7 @@ public class MoreKeySpecParser {
     }
 
     private static int getResourceId(Resources res, String name) {
-        String packageName = res.getResourcePackageName(R.string.english_ime_name);
+        String packageName = res.getResourcePackageName(R.string.custom_ime_name);
         int resId = res.getIdentifier(name, null, packageName);
         if (resId == 0)
             throw new MoreKeySpecParserError("Unknown resource: " + name);

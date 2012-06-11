@@ -36,7 +36,7 @@
     <!-- Default value for bigram prediction: after entering a word and a space only, should we look
          at input history to suggest a hopefully helpful suggestions for the next word? -->
     <bool name="config_default_bigram_prediction">false</bool>
-    <bool name="config_default_sound_enabled">false</bool>
+    <bool name="config_default_sound_enabled">true</bool>
     <bool name="config_default_vibration_enabled">true</bool>
     <bool name="config_auto_correction_spacebar_led_enabled">false</bool>
     <!-- Showing mini keyboard, just above the touched point if true, aligned to the key if false -->

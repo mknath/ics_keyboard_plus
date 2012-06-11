@@ -40,7 +40,7 @@ public class MoreKeySpecParserTests extends AndroidTestCase {
         Resources res = getContext().getResources();
         mRes = res;
 
-        final String packageName = res.getResourcePackageName(R.string.english_ime_name);
+        final String packageName = res.getResourcePackageName(R.string.custom_ime_name);
         final int codeId = res.getIdentifier(CODE_SETTINGS.substring(1), null, packageName);
         mCodeSettings = res.getInteger(codeId);
     }
