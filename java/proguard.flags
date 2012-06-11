@@ -1,0 +1,40 @@
+-keep class com.gnufabio.icskbplus.latin.BinaryDictionary {
+  int mDictLength;
+  <init>(...); 
+}
+
+-keep class com.gnufabio.icskbplus.latin.Suggest {
+  <init>(...);
+  com.gnufabio.icskbplus.latin.SuggestedWords getSuggestions(...);
+}
+
+-keep class com.gnufabio.icskbplus.latin.UserBigramDictionary {
+  void setDatabaseMax(int);
+  void setDatabaseDelete(int);
+  void waitUntilUpdateDBDone();
+  void waitForDictionaryLoading();
+}
+
+-keep class com.gnufabio.icskbplus.latin.AutoCorrection {
+  java.lang.CharSequence getAutoCorrectionWord();
+}
+
+-keep class com.gnufabio.icskbplus.latin.Utils {
+  boolean equalsIgnoreCase(...);
+}
+
+-keep class com.gnufabio.icskbplus.latin.spellcheck.SpellChecker {
+  *;
+}
+
+-keep class com.gnufabio.icskbplus.latin.spellcheck.SpellCheckerSettingsFragment {
+  *;
+}
+
+-keep class com.gnufabio.icskbplus.latin.SettingsActivity {
+  *;
+}
+
+-keep class com.gnufabio.icskbplus.keyboard.internal.MiniKeyboardBuilder$MiniKeyboardParams {
+  <init>(...);
+}
