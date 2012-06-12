@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         coreApp="true"
-        package="com.gnufabio.icskbplus"
-        android:versionCode="2"
+        package="com.gnufabio.icskbplus.latin"
+        android:versionCode="1"
         android:versionName="@string/app_version">
 
     <uses-permission android:name="android.permission.VIBRATE"/>
@@ -17,7 +17,7 @@
             android:backupAgent="BackupAgent"
             android:killAfterRestore="false">
 
-        <service android:name="com.gnufabio.icsbkplus.latin.LatinIME"
+        <service android:name="LatinIME"
                 android:label="@string/custom_ime_name"
                 android:permission="android.permission.BIND_INPUT_METHOD">
             <intent-filter>
@@ -26,7 +26,7 @@
             <meta-data android:name="android.view.im" android:resource="@xml/method" />
         </service>
 
-        <service android:name="com.gnufabio.icsbkplus.latin.spellcheck.AndroidSpellCheckerService"
+        <service android:name=".spellcheck.AndroidSpellCheckerService"
                  android:label="@string/spell_checker_service_name"
                  android:permission="android.permission.BIND_TEXT_SERVICE">
             <intent-filter>
@@ -35,7 +35,7 @@
             <meta-data android:name="android.view.textservice.scs" android:resource="@xml/spellchecker" />
         </service>
 
-        <activity android:name="com.gnufabio.icsbkplus.latin.Settings" android:label="@string/custom_ime_settings">
+        <activity android:name="Settings" android:label="@string/custom_ime_settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
@@ -63,7 +63,7 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name="com.gnufabio.icskbplus.latin.SuggestionSpanPickedNotificationReceiver" android:enabled="true">
+        <receiver android:name="SuggestionSpanPickedNotificationReceiver" android:enabled="true">
             <intent-filter>
                 <action android:name="android.text.style.SUGGESTION_PICKED" />
             </intent-filter>
