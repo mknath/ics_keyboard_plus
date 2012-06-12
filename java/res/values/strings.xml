@@ -18,7 +18,7 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_version">0.1</string>
+    <string name="app_version">0.2</string>
     
     <string name="custom_ime_name">ICS KeyBoard+</string>
     <string name="custom_ime_settings">ICS KeyBoard+ settings</string>

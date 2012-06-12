@@ -1,0 +1,3 @@
+for i in `find $PWD -type f`; do
+        sed -i "s/xmlns:latin=\"http:\/\/schemas\.android\.com\/apk\/res\/com\.gnufabio\.icskbplus\.latin/xmlns:latin=\"http:\/\/schemas\.android\.com\/apk\/res\/com\.gnufabio\.icskbplus" $i
+done
