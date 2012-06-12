@@ -25,7 +25,7 @@
         style="?attr/miniKeyboardPanelStyle"
         >
     <com.gnufabio.icskbplus.latin.MoreSuggestionsView
-            xmlns:latin="http://schemas.android.com/apk/res/com.gnufabio.icskbplus.latin"
+            xmlns:latin="http://schemas.android.com/apk/res/com.gnufabio.icskbplus"
             android:id="@+id/more_suggestions_view"
             android:layout_alignParentBottom="true"
             android:layout_width="wrap_content"
