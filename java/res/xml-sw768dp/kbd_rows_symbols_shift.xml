@@ -27,21 +27,20 @@
         latin:keyboardLayout="@xml/kbd_currency_key_styles" />
     <Row
         latin:keyWidth="8.282%p"
-    >
+    >   <!-- 11 -->
         <Key
             latin:keyStyle="tabKeyStyle"
             latin:keyLabelOption="alignLeft"
             latin:keyWidth="7.969%p" />
+         <Key
+            latin:keyStyle="moreCurrency1KeyStyle" />
         <Key
-            latin:keyLabel="~" />
+            latin:keyStyle="moreCurrency2KeyStyle" />
         <Key
-            latin:keyLabel="`" />
+            latin:keyStyle="moreCurrency3KeyStyle" />
         <Key
-            latin:keyLabel="|"
-            latin:moreKeys="\" />
-        <Key
-            latin:keyLabel="•"
-            latin:moreKeys="@string/more_keys_for_bullet" />
+            latin:keyStyle="moreCurrency4KeyStyle" />
+        
         <Key latin:moreKeys="⋊,⋈,⋉" latin:keyLabel="√" />
         <include
                 latin:keyboardLayout="@xml/greek_entries" />
@@ -49,8 +48,8 @@
         <Key
             latin:keyLabel="×" latin:moreKeys="⇔,↔,⇒,↦"  />
         <Key
-            latin:keyLabel="™"
-            latin:moreKeys="®,©" />
+            latin:keyLabel="°"
+            latin:moreKeys="™,®,©" />
         <Key
             latin:keyStyle="deleteKeyStyle"
             latin:keyXPos="-9.219%p"
@@ -63,20 +62,14 @@
             latin:keyStyle="toAlphaKeyStyle"
             latin:keyLabelOption="alignLeft"
             latin:keyWidth="11.172%p" />
-        <Key
-            latin:keyStyle="moreCurrency1KeyStyle" />
-        <Key
-            latin:keyStyle="moreCurrency2KeyStyle" />
-        <Key
-            latin:keyStyle="moreCurrency3KeyStyle" />
-        <Key
-            latin:keyStyle="moreCurrency4KeyStyle" />
+        <include
+                latin:keyboardLayout="@xml/math_symbols1" />
         <Key
             latin:keyLabel="^"
             latin:moreKeys="↑,↓,←,→" />
         <Key
-            latin:keyLabel="°"
-            latin:moreKeys="¶,§" />
+            latin:keyLabel="|"
+            latin:moreKeys="\\" />
         <Key
             latin:keyLabel="±"
             latin:moreKeys="∓" />
@@ -99,8 +92,11 @@
             latin:keyWidth="13.829%p" />
         <include
                 latin:keyboardLayout="@xml/emoj_entries" />
-        <include
-                latin:keyboardLayout="@xml/math_symbols1" />
+        
+        <Key
+            latin:keyLabel="~" />
+        <Key
+            latin:keyLabel="`" />
         
         <Key
             latin:keyStyle="backFromMoreSymbolKeyStyle"

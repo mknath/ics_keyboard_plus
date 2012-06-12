@@ -21,9 +21,11 @@
 <merge
     xmlns:latin="http://schemas.android.com/apk/res/com.gnufabio.icskbplus.latin"
 >
-        <Key latin:moreKeys=",,,,,,,,,,,,,,,,,,,,,,,,,," latin:keyLabel="" />
-        <Key latin:moreKeys=",,,,,,,,,,,,,,,,,,,,,,,,,," latin:keyLabel="" />
-        <Key latin:moreKeys=",,,,,,,,,,,,,,,,,,,,,,,,,," latin:keyLabel="" />
-        <Key latin:moreKeys=",,,,,,,,,,,,,,,,,,,,,,,,," latin:keyLabel="" />
-        <Key latin:moreKeys="♀,◢,◣,◤,◥,▲,▼,█,■,㏂,㏘,✔,∴,✘,∵,⇦,⇧,⇨,⇩,,,,,,,,,,,,,‧,ツ,…" latin:keyLabel="♂" />
+        <Key latin:moreKeys=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," latin:keyLabel="" latin:maxMoreKeysColumn="@integer/config_emoji_columns"/>
+        <Key latin:moreKeys=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," latin:keyLabel="" latin:maxMoreKeysColumn="@integer/config_emoji_columns"/>
+        <Key latin:moreKeys=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," latin:keyLabel="" latin:maxMoreKeysColumn="@integer/config_emoji_columns"/>
+        <Key latin:moreKeys=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," latin:keyLabel="" latin:maxMoreKeysColumn="@integer/config_emoji_columns"/>
+        <Key latin:moreKeys="♀,◢,◣,◤,◥,▲,▼,∵,,∴,,✘,,✔,,,,,,,,,,♥,♠,♦,♣,•,♪" latin:keyLabel="♂" latin:maxMoreKeysColumn="@integer/config_emoji_columns"/>
+                <Key latin:moreKeys=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," latin:keyLabel="" latin:maxMoreKeysColumn="@integer/config_emoji_columns"/>
+                                <Key latin:moreKeys=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," latin:keyLabel="" latin:maxMoreKeysColumn="@integer/config_emoji_columns"/>
 </merge>

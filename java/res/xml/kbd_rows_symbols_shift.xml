@@ -4,9 +4,11 @@
     <include latin:keyboardLayout="@xml/kbd_key_styles" />
     <include latin:keyboardLayout="@xml/kbd_currency_key_styles" />
     <Row latin:keyWidth="10.000002%p">
+        
+        <Key latin:moreKeys="≤,«,‹" latin:keyLabel="&lt;" />
+        <Key latin:moreKeys="≥,»,›" latin:keyLabel=">" />
+        
         <Key latin:moreKeys="\\" latin:keyLabel="|" />
-        <Key latin:moreKeys="`" latin:keyLabel="~" />
-        <Key latin:moreKeys="@string/more_keys_for_bullet" latin:keyLabel="•" />
         <Key latin:moreKeys="⋊,⋈,⋉" latin:keyLabel="√" />
         
         <include latin:keyboardLayout="@xml/greek_entries" />
@@ -21,7 +23,7 @@
         <Key latin:keyStyle="moreCurrency1KeyStyle" />
         <Key latin:keyStyle="moreCurrency2KeyStyle" />
         <Key latin:keyStyle="moreCurrency3KeyStyle" />
-        <Key latin:moreKeys="®,©,¶,§,°" latin:keyLabel="™" />
+        <Key latin:moreKeys="™,®,©,¶,§" latin:keyLabel="°" />
         <Key latin:moreKeys="↑,↓,←,→" latin:keyLabel="^" />
         <include latin:keyboardLayout="@xml/math_symbols1" /> 
         
@@ -31,9 +33,8 @@
         <Key latin:keyStyle="backFromMoreSymbolKeyStyle" latin:visualInsetsRight="0.99999905%p" latin:keyWidth="14.999998%p" />
         
         <include latin:keyboardLayout="@xml/emoj_entries" />
-        
-        <Key latin:moreKeys="≤,«,‹" latin:keyLabel="&lt;" />
-        <Key latin:moreKeys="≥,»,›" latin:keyLabel=">" />
+        <!--
+        -->
         <Key latin:keyStyle="deleteKeyStyle" latin:visualInsetsLeft="0.99999905%p" latin:keyWidth="fillRight" />
     </Row>
     <include latin:keyboardLayout="@xml/kbd_symbols_shift_row4" />
